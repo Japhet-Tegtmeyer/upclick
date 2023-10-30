@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct CountUP_App: App {
+    @State private var snarkyText: String = UserDefaults.standard.string(forKey: "snarkyText") ?? "Loading..."
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabView()
+                .environmentObject(CountData())
         }
     }
 }
