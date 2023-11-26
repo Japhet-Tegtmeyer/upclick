@@ -3,17 +3,57 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF2EF8D32AEDD84C004C4C17 /* AppStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2EF8D22AEDD84C004C4C17 /* AppStoreView.swift */; };
+		AF8A85D12AED4B4400D8C11A /* TextManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8A85D02AED4B4400D8C11A /* TextManager.swift */; };
+		AF8AB7972AE7486C00067A6B /* SettingsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8AB7962AE7486C00067A6B /* SettingsSheet.swift */; };
+		AF9FF5432AF80DC5009C3CC5 /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9FF5422AF80DC5009C3CC5 /* MainButton.swift */; };
+		AFAD11BA2AE8800F00D2886D /* AwardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAD11B92AE8800F00D2886D /* AwardView.swift */; };
+		AFAD11BC2AE880B500D2886D /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAD11BB2AE880B500D2886D /* MainTabView.swift */; };
+		AFBAC92A2AFAEEEA00F97A32 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFBAC9292AFAEEEA00F97A32 /* Launch Screen.storyboard */; };
+		AFCF9C7A2AF845690065C69B /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = AFCF9C792AF845690065C69B /* Localizable.xcstrings */; };
 		AFFBAF192AE7105E00640BDC /* CountUP_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFBAF182AE7105E00640BDC /* CountUP_App.swift */; };
 		AFFBAF1B2AE7105E00640BDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFBAF1A2AE7105E00640BDC /* ContentView.swift */; };
 		AFFBAF1D2AE7105F00640BDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFFBAF1C2AE7105F00640BDC /* Assets.xcassets */; };
 		AFFBAF202AE7105F00640BDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFFBAF1F2AE7105F00640BDC /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		AFB55BBA2AEC4CC20041B8F3 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFCF9C622AF83DD30065C69B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		AF2EF8D22AEDD84C004C4C17 /* AppStoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreView.swift; sourceTree = "<group>"; };
+		AF74D9652AE7580C003953AE /* CountUP!.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "CountUP!.entitlements"; sourceTree = "<group>"; };
+		AF8A85D02AED4B4400D8C11A /* TextManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextManager.swift; sourceTree = "<group>"; };
+		AF8AB7962AE7486C00067A6B /* SettingsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSheet.swift; sourceTree = "<group>"; };
+		AF9FF5422AF80DC5009C3CC5 /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
+		AFAD11B92AE8800F00D2886D /* AwardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardView.swift; sourceTree = "<group>"; };
+		AFAD11BB2AE880B500D2886D /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		AFBAC9292AFAEEEA00F97A32 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		AFCF9C792AF845690065C69B /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		AFFBAF152AE7105E00640BDC /* CountUP!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CountUP!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFFBAF182AE7105E00640BDC /* CountUP_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountUP_App.swift; sourceTree = "<group>"; };
 		AFFBAF1A2AE7105E00640BDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +72,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF2EF8CF2AEDD81E004C4C17 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF9224E72AFC3CFE000EC287 /* Tips */,
+				AFAD11BB2AE880B500D2886D /* MainTabView.swift */,
+				AFFBAF1A2AE7105E00640BDC /* ContentView.swift */,
+				AFAD11B92AE8800F00D2886D /* AwardView.swift */,
+				AF2EF8D22AEDD84C004C4C17 /* AppStoreView.swift */,
+				AF8AB7962AE7486C00067A6B /* SettingsSheet.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AF2EF8D02AEDD824004C4C17 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AF8A85D02AED4B4400D8C11A /* TextManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AF2EF8D12AEDD829004C4C17 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AFFBAF182AE7105E00640BDC /* CountUP_App.swift */,
+				AFCF9C792AF845690065C69B /* Localizable.xcstrings */,
+				AFBAC9292AFAEEEA00F97A32 /* Launch Screen.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AF9224E72AFC3CFE000EC287 /* Tips */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tips;
+			sourceTree = "<group>";
+		};
+		AF9FF5402AF80D9D009C3CC5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AF9FF5422AF80DC5009C3CC5 /* MainButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		AFFBAF0C2AE7105E00640BDC = {
 			isa = PBXGroup;
 			children = (
@@ -39,6 +125,7 @@
 				AFFBAF162AE7105E00640BDC /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		AFFBAF162AE7105E00640BDC /* Products */ = {
 			isa = PBXGroup;
@@ -51,8 +138,11 @@
 		AFFBAF172AE7105E00640BDC /* CountUP! */ = {
 			isa = PBXGroup;
 			children = (
-				AFFBAF182AE7105E00640BDC /* CountUP_App.swift */,
-				AFFBAF1A2AE7105E00640BDC /* ContentView.swift */,
+				AF9FF5402AF80D9D009C3CC5 /* Components */,
+				AF2EF8D12AEDD829004C4C17 /* App */,
+				AF2EF8D02AEDD824004C4C17 /* Models */,
+				AF2EF8CF2AEDD81E004C4C17 /* Views */,
+				AF74D9652AE7580C003953AE /* CountUP!.entitlements */,
 				AFFBAF1C2AE7105F00640BDC /* Assets.xcassets */,
 				AFFBAF1E2AE7105F00640BDC /* Preview Content */,
 			);
@@ -77,6 +167,8 @@
 				AFFBAF112AE7105E00640BDC /* Sources */,
 				AFFBAF122AE7105E00640BDC /* Frameworks */,
 				AFFBAF132AE7105E00640BDC /* Resources */,
+				AFB55BBA2AEC4CC20041B8F3 /* Embed Watch Content */,
+				AFCF9C622AF83DD30065C69B /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -94,7 +186,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1510;
+				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1510;
 				TargetAttributes = {
 					AFFBAF142AE7105E00640BDC = {
@@ -103,12 +195,15 @@
 				};
 			};
 			buildConfigurationList = AFFBAF102AE7105E00640BDC /* Build configuration list for PBXProject "CountUP!" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				he,
+				de,
+				"es-419",
 			);
 			mainGroup = AFFBAF0C2AE7105E00640BDC;
 			productRefGroup = AFFBAF162AE7105E00640BDC /* Products */;
@@ -127,6 +222,8 @@
 			files = (
 				AFFBAF202AE7105F00640BDC /* Preview Assets.xcassets in Resources */,
 				AFFBAF1D2AE7105F00640BDC /* Assets.xcassets in Resources */,
+				AFBAC92A2AFAEEEA00F97A32 /* Launch Screen.storyboard in Resources */,
+				AFCF9C7A2AF845690065C69B /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +234,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFAD11BC2AE880B500D2886D /* MainTabView.swift in Sources */,
+				AFAD11BA2AE8800F00D2886D /* AwardView.swift in Sources */,
+				AF8A85D12AED4B4400D8C11A /* TextManager.swift in Sources */,
+				AF8AB7972AE7486C00067A6B /* SettingsSheet.swift in Sources */,
+				AF9FF5432AF80DC5009C3CC5 /* MainButton.swift in Sources */,
 				AFFBAF1B2AE7105E00640BDC /* ContentView.swift in Sources */,
+				AF2EF8D32AEDD84C004C4C17 /* AppStoreView.swift in Sources */,
 				AFFBAF192AE7105E00640BDC /* CountUP_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,27 +372,39 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "CountUP!/CountUP!.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CountUP!/Preview Content\"";
 				DEVELOPMENT_TEAM = D6XT57G5YN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = UpClick;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.7.7;
 				PRODUCT_BUNDLE_IDENTIFIER = "JaphetT.CountUP-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
 			};
 			name = Debug;
 		};
@@ -298,27 +413,39 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "CountUP!/CountUP!.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CountUP!/Preview Content\"";
 				DEVELOPMENT_TEAM = D6XT57G5YN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = UpClick;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.7.7;
 				PRODUCT_BUNDLE_IDENTIFIER = "JaphetT.CountUP-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
 			};
 			name = Release;
 		};
